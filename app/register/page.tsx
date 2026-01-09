@@ -51,7 +51,6 @@ export default function RegisterPage() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      s;
       const submitData = new FormData(e.currentTarget);
 
       const response = await signUpService(submitData);
